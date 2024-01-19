@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00000011;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+
+
+#logo {
+    max-width: 150px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section.projets {
+    float: none; /* ou float: left; */
+    width: 250px;
+    height: 100px;
+    margin-left: -300px;
+}
+
+
+
+ul {
+    list-style:none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Ajoutez ces styles pour ajuster la taille des images */
+ul#listeSites img {
+    max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+    height: auto; /* Pour conserver les proportions originales de l'image */
+    margin-right: 10px; /* Ajoute une marge à droite pour séparer l'image du texte */
+}
+
